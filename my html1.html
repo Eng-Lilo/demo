@@ -1,0 +1,130 @@
+<html lang="en">
+    <head>
+        <title>HTML Tutorial</title>
+    </head>
+        <body>
+            
+<h1 style="color:red ;font-size:60px; font-family:mokoto; padding-top: 10px; background-color: wheat; border: 2px solid black; text-align: center;">Welcome To My Flashback Website</h1>
+<i> leyla adam abdi : graphic designer and web developer</i>
+<br>
+<strong> and also she want to  be web developer</strong>
+<br>
+<emp>i dont remember what emp used for but we see</emp>
+<p> this is paragraph</p>
+<p> html links are defined with a tag </p>
+<a href="my html1.html">this is a link </a>
+<br>
+<br>
+<img src="wshj" alt="moon picture" width="104" height="142">
+<br>
+<strong> to view the source code , right click and choose: view page source</strong>
+<br>
+<p>this is <sub>subscript</sub> and <sup>superscript</sup></p>
+<style>
+    .myclass{
+        border: 2px solid brown;
+       width: 50%;
+       padding-left: 10px;
+       /* margin: 10px;*/
+    }
+    #myheader{
+        background-color: aqua;
+        color: black;
+        font-family: mokoto;
+    }
+table,th,td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 10px;
+        border-style: inset;
+        border-color: maroon;
+        border-spacing: 30px;
+    }
+    th,td {
+       background-color: whitesmoke;
+       padding: 10px;
+       
+       margin: 20px;
+    }
+    tr:hover {
+        background-color: red;
+    }
+</style>
+<h2 id="myheader">HTML Table </h2>
+<table style="width:50%">
+    <tr>
+        <th>Name</th>
+        <th>University</th>
+    </tr>
+    <tr>
+        <td>Laila adam</td>
+        <td>Salaam university</td>
+    </tr>
+    <tr>
+        <td>Luul ali</td>
+        <td>Salaam university</td>
+    </tr>
+    <tr>
+        <td>Samiir omar</td>
+        <td>Salaam university</td>
+    </tr>
+
+
+</table>
+<h2 class="myclass">ordered list</h2>
+<ol>
+    <li>lilo</li>
+    <li>lilo</li>
+    <li>lilo</li>
+</ol>
+<h2>ordered list</h2>
+<ul>
+    <li>milo</li>
+    <li>kilo</li>
+    <li>dilo</li>
+</ul>
+<div style="color:cadetblue">
+<dl>
+<dt><strong> --Lilo</strong></dt>
+<dd> waa graphic designer iyo web developer</dd>
+</dl>
+</div>
+<p>my mother is <span style="color: blueviolet; font-family: mokoto;"> my world </span> and she is a strong independent women
+
+</p>
+<form >
+<label for="fname"> First Name : </label> 
+<BR>
+<input type="text" id="fname" name="fname" placeholder="Enter your Full name">
+<BR>
+    <label for="fname"> Last Name : </label> <BR>
+        <input type="text" id="fname" name="fname" placeholder="Enter your Full name">
+        
+
+</form>
+
+
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML='hello wad na dhibty insa adeer'">
+    click me !
+    </button>
+    <br>
+    <p id="myheader" style="background-color: blue;"> this color will changed</p>
+    <button type="button" onclick="document.getElementById('myheader').style.fontSize='39px'">
+        click me !
+        </button>
+        <p>declaring variable</p>
+        <p id="demo"></p>
+        <script>
+            x=5;
+            y=4;
+            z=x+y;
+            document.getElementById("demo").innerHTML="The Total is " + z;
+            let ans1="yes its alright";
+            let ans2="He is designer";  
+            document.getElementById('demo').innerHTML=ans1 +"<br>"+ans2;
+        </script>
+    
+        </body>
+        </html>
+   
